@@ -69,8 +69,8 @@ end
 --- Альтернатива "common.CancelDelayedCall".
 --- @param taskId number Идентификатор задачи.
 function CustomDelayedCall.Cancel( taskId )
-    if pendingTasks[taskId] then
-        pendingTasks[taskId] = nil
+    if pendingTasks[ taskId ] then
+        pendingTasks[ taskId ] = nil
     end
 end
 
