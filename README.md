@@ -1,2 +1,2 @@
 # common.DelayedCall
-Альтернатива "CustomDelayedCall.Call"
+Alternative "CustomDelayedCall.Call"
